@@ -16,3 +16,6 @@ var m = m.fontcolor("grey");
 var t = t.fontcolor("blue");
 document.write(i,m,t);
 document. write(3+3); //expression
+function turnGreen(){
+    document.getElementById("demo").style.backgroundColor = "green";
+}
