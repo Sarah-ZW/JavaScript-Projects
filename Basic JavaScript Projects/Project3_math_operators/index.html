@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <meta charset="UTF-8">
+        
+    </head>
+<body onpageshow ="addNum(5,7)">
+    <p>5 + 7 = </p>
+    <p id="math">j</p>
+    <br>
+    <p>20 - 5 =</p>
+    <button onclick="subtract(20,5)">Click for answer</button>
+    <p id = "minus">Your answer awaits </p>
+    <br>
+    <p id = "product"> Type something in the box below
+        to see the answer to 8 * 6.
+    </p>
+    <input type="text" onkeypress="mult()">
+    <br>
+    <br>
+    <br>
+    <button onclick="div()">Click me for 50/5</button>
+    <p id="divy">50/5 = ?</p>
+    <br>
+    <button onclick="lots()">Click for multiple operations</button>
+    <p id ="fn"> Answer to lots of math </p>
+    <br>
+    <button onclick="amp()">Click</button>
+    <p id ="left">What is the remainder of 8 divided by 3?</p>
+    <br>
+    <button onclick="negate()">Click me</button>
+    <p id = "neg">Your negative answer awaits</p>
+    <br>
+    
+    <p>Square Root of two is:</p>
+    <p id="math1">j</p>
+    <br>
+    <script src="JS/main.js"></script>
+</body>
+</html>

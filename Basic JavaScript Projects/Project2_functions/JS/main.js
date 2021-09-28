@@ -8,3 +8,8 @@ function cat() {
     a += " now I'm a mountain biker.";//adding onto the original variable
     document.getElementById("cat").innerHTML = a;//finding html element with id and changing it
     }
+
+function gogo(num1, num2) {
+    var result = num1 * num2 -num2;
+    document.getElementById("math").innerHTML = result;
+}
