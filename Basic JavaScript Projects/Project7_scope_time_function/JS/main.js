@@ -1,16 +1,22 @@
 function lLobe() { //local variable
-    x=20;
+    var x=20;
     document.write(x+100+"<br>");
 }
 
-y=19
+var y=19
 function gLobe() { //global variable
-    j = 33;
+    var j = 33;
     document.write(y*3);
     console.log(y*3);
 }
 lLobe();
 gLobe();
+
+function er1() { //intentional error
+    document.write(j);
+    console.log(j);
+}
+er1();
 
 function datF() { //function tells you if before 6 PM
     if(new Date().getHours()<18) {
