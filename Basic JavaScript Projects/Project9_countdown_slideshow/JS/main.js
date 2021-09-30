@@ -1,7 +1,7 @@
-function countdown() {
+function countdown() { //Count down function
     var seconds =document.getElementById("seconds").value;
 
-    function tick() {
+    function tick() { //function that subtracts 1 every 1 second
         seconds = seconds - 1;
         timer.innerHTML = seconds;
         var time = setTimeout(tick, 1000);
