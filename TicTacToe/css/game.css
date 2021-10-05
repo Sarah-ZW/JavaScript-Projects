@@ -1,0 +1,32 @@
+/* THIS CONTAINER INCLUDES OUR TABLE AND OUR CANVAS. */
+.center-container {
+    width:608px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+table {
+    /* This property collapses table borders into 1 border*/
+    border-collapse: collapse;
+    /*This hides outer borders on the table.*/
+    border-style: hidden;
+}
+td {
+    cursor:pointer;
+    border: 4px solid rgba(22, 133, 174, 0.8);
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+canvas {
+    position: absolute;
+    z-index:10; /*This property puts our canvas over the top of the table*/
+    pointer-events: none; /* this property makes our canvas invisible*/
+}
+
+h1 {
+    text-align: center;
+    
+}
+
