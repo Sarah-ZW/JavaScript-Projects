@@ -2,11 +2,13 @@
     width:400px;
     height:470px;
     margin:10px auto;
+    
 }
 
 #frmMenu {
-    width:400px;
+    width:600px;
     height:200px;
+    
     }
 
 #totalPrice {
@@ -22,6 +24,11 @@
     float: left;
 }
 
+.middle {
+    width:200px;
+    height:200px;
+    float:left;
+}
 .right {
     width:200px;
     height:200px;
@@ -43,7 +50,7 @@
 }
 
 #btnOrder{
-    margin:10px 0px 0px 100px;
+    margin:10px 0px 0px 150px;
     width: 100px;
     height:40px;
 }
@@ -54,7 +61,8 @@ body {
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#faf8fc
+    color:#faf8fc;
+    text-align: center;
 }
 
 h3 {
