@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Get It Done</title>
+        <link rel="stylesheet" href="css/todo.css">
+    </head>
+    <body>
+        <input id="task"><button id="add">Add item</button>
+        <hr>
+        <div id="todos"></div>
+        <div id="foo"></div>
+        <br>
+        <p id = "colorful" ondblclick="colorTime()">I am a person</p>
+        
+        <footer>&copy; Sarah Z-W  2021</footer>
+        <script src="js/todo.js"></script>
+        <script>
+            var funTimes = '{"food": "Ramen", "music": "Motown", "company": "friends", "location": "outside"}';
+            var JSONparse = JSON.parse(funTimes);
+            document.getElementById("todos").innerHTML = JSONparse.food + " is good homeade food to eat with "
+            + JSONparse.company;
+
+            localStorage.setItem("fun_person", "Wendy");
+            document.getElementById("foo").innerHTML = localStorage.getItem("fun_person");
+
+            function colorTime () {
+                document.getElementById("colorful").style.cssText = "color: #0c9bbd; font-weight:900;";
+            }
+        </script>
+    </body>
+</html>

@@ -56,7 +56,14 @@
 }
 
 body {
-    background-color: #92a88c;
+    background-color:#92a88c;
+    opacity:1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition:none;
 }
 
 h1 {
